@@ -1,5 +1,7 @@
 # PropShop Ecommerce Website With Django + React
 
+Live Demo can be view at https://www.buildproshop.com/
+
 This project is from my Django + React collaboration wih Brad Traversy. Link to udemy course will be posted shortly
 
 
