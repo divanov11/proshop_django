@@ -1,3 +1,3 @@
 # proshop_django
 
-![DEMO](../master/static/proshop_django_demo.png)
+![DEMO](../proshop_django/master/static/images/proshop_django_demo.png)
