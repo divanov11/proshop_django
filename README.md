@@ -25,14 +25,14 @@ This project is from my Django + React collaboration wih Brad Traversy. Full Cou
 
 # Download & Setup Instructions
 
-1 - Clone project: git clone https://github.com/divanov11/proshop_django/
-2 - cd proshop_django
-3 - Create virtual environment: virtualenv myenv
-4 - cd myenv
-5 - myenv\scripts\activate
-6 - pip install requirements.txt
-7 - python manage.py runserver
+* 1 - Clone project: git clone https://github.com/divanov11/proshop_django/
+* 2 - cd proshop_django
+* 3 - Create virtual environment: virtualenv myenv
+* 4 - cd myenv
+* 5 - myenv\scripts\activate
+* 6 - pip install requirements.txt
+* 7 - python manage.py runserver
 
 # Install react modules
-1 - cd frontend
-2 - npm install
+* 1 - cd frontend
+* 2 - npm install
