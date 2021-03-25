@@ -29,7 +29,7 @@ This project is from my Django + React collaboration wih Brad Traversy. Full Cou
 * 2 - cd proshop_django
 * 3 - Create virtual environment: virtualenv myenv
 * 4 - myenv\scripts\activate
-* 5 - pip install requirements.txt
+* 5 - pip install -r requirements.txt
 * 6 - python manage.py runserver
 
 # Install react modules
