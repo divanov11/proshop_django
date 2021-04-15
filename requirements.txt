@@ -19,7 +19,7 @@ django-filter==2.3.0
 django-js-asset==1.2.2
 django-storages==1.9.1
 djangorestframework==3.11.1
-djangorestframework-simplejwt==4.4.0
+djangorestframework-simplejwt==4.6.0
 docutils==0.15.2
 filelock==3.0.12
 Flask==1.1.2
