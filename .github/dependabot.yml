@@ -1,0 +1,8 @@
+version: 2
+updates:
+  # Maintain dependencies for GitHub Actions
+  - package-ecosystem: "pip"
+    directory: "/"
+    target-branch: "master"
+    schedule:
+      interval: "daily"
