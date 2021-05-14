@@ -6,7 +6,7 @@ import Rating from '../components/Rating'
 import Loader from '../components/Loader'
 import Message from '../components/Message'
 import { listProductDetails, createProductReview } from '../actions/productActions'
-import { PRODUCT_CREATE_REVIEW_RESET } from '../constants/productConstants'
+import { PRODUCT_CREATE_REVIEW_RESET, PRODUCT_DETAILS_RESET } from '../constants/productConstants'
 
 function ProductScreen({ match, history }) {
     const [qty, setQty] = useState(1)
@@ -36,7 +36,7 @@ function ProductScreen({ match, history }) {
         }
 
         dispatch(listProductDetails(match.params.id))
-
+        return dispatch({ type: PRODUCT_DETAILS_RESET });
     }, [dispatch, match, successProductReview])
 
     const addToCartHandler = () => {
