@@ -1,5 +1,3 @@
-myenv/
-
 
 # Created by https://www.toptal.com/developers/gitignore/api/django,pycharm
 # Edit at https://www.toptal.com/developers/gitignore?templates=django,pycharm
@@ -197,7 +195,6 @@ cython_debug/
 
 #.idea folder
 .idea/
-
 # CMake
 cmake-build-*/
 
@@ -265,3 +262,6 @@ fabric.properties
 **/.git
 
 # End of https://www.toptal.com/developers/gitignore/api/django,pycharm
+
+# ignoring staticfiles
+.staticfiles
