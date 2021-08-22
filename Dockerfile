@@ -1,9 +1,5 @@
 # pull the official base image
 FROM python:3.8-slim-buster
-# python:3.8.5-alpine
-
-MAINTAINER SakethChandra "https://github.com/Saketh-Chandra/"
-
 # set work directory
 WORKDIR /usr/src/app
 
