@@ -11,7 +11,7 @@ click==7.1.2
 colorama==0.4.4
 cs50==5.0.4
 distlib==0.3.1
-Django==3.1.4
+Django==2.2.26
 django-ckeditor==5.9.0
 django-cors-headers==3.5.0
 django-crispy-forms==1.9.2
@@ -34,7 +34,7 @@ jmespath==0.10.0
 lazy-object-proxy==1.4.3
 MarkupSafe==1.1.1
 mccabe==0.6.1
-Pillow==8.0.1
+Pillow==9.0.0
 
 # psycopg2>=2 # Getting an Error while using with Docker
 psycopg2-binary>=2
