@@ -1,0 +1,35 @@
+version: '3'
+
+services:
+  backend:
+    build:
+      context: .
+    volumes:
+      - staticfiles:/usr/src/app/staticfiles
+      - images:/usr/src/app/static/images
+    env_file:
+      - .env
+    # command: gunicorn backend.wsgi --bind 0.0.0.0:8000
+    expose:
+      - "8000"
+  frontend:
+    build:
+      context: ./frontend
+    volumes:
+      - react_build:/react/build
+  nginx:
+    image: nginx:latest
+    ports:
+      - 80:8080
+    volumes:
+      - ./nginx/nginx-setup.conf:/etc/nginx/conf.d/default.conf:ro
+      - react_build:/var/www/react
+      - staticfiles:/staticfiles
+      - images:/static/images
+    depends_on:
+      - backend
+      - frontend
+volumes:
+  react_build:
+  staticfiles:
+  images:
