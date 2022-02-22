@@ -35,7 +35,6 @@ lazy-object-proxy==1.4.3
 MarkupSafe==1.1.1
 mccabe==0.6.1
 Pillow==9.0.0
-
 # psycopg2>=2 # Getting an Error while using with Docker
 psycopg2-binary>=2
 
