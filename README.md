@@ -67,7 +67,7 @@ SUPER_USER_EMAIL = 'root@email.com'
 ### Usage
 
 ``` Shell
-git clone https://github.com/divanov11/proshop_django.git
+git clone https://github.com/Saketh-Chandra/proshop_django.git
 cd proshop_django
 docker-compose up --build
 ```
