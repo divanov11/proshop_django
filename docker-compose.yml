@@ -10,8 +10,8 @@ services:
     env_file:
       - .env
     # command: gunicorn backend.wsgi --bind 0.0.0.0:8000
-    ports:
-      - "8000:8000"
+    expose:
+      - "8000"
   frontend:
     build:
       context: ./frontend
