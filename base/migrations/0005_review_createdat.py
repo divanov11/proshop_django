@@ -2,7 +2,8 @@
 
 import datetime
 from django.db import migrations, models
-from django.utils.timezone import utc
+from datetime import timezone as utc
+
 
 
 class Migration(migrations.Migration):
@@ -15,7 +16,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='review',
             name='createdAt',
-            field=models.DateTimeField(auto_now_add=True, default=datetime.datetime(2021, 1, 22, 0, 6, 40, 181235, tzinfo=utc)),
+            field=models.DateTimeField(auto_now_add=True, default=datetime.datetime(2021, 1, 22, 0, 6, 40, 181235, tzinfo=datetime.timezone.utc)),
             preserve_default=False,
         ),
     ]
