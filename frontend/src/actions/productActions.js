@@ -7,6 +7,7 @@ import {
     PRODUCT_DETAILS_REQUEST,
     PRODUCT_DETAILS_SUCCESS,
     PRODUCT_DETAILS_FAIL,
+    PRODUCT_DETAILS_RESET,
 
     PRODUCT_DELETE_REQUEST,
     PRODUCT_DELETE_SUCCESS,
@@ -34,6 +35,7 @@ import {
 
 export const listProducts = (keyword = '') => async (dispatch) => {
     try {
+        dispatch({ type: PRODUCT_DETAILS_RESET})
         dispatch({ type: PRODUCT_LIST_REQUEST })
 
         const { data } = await axios.get(`/api/products${keyword}`)
